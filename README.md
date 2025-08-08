@@ -40,7 +40,7 @@ from bot import tgBot
 
 bot = tgBot("YOUR_BOT_TOKEN")
 
-for upd in bot.read_message():
+for upd in bot.read_message() or []:
     msg = upd.get("message")
     if msg and msg.get("text") == "/start":
         bot.send_message(msg["chat"]["id"], "Hello from bot.py!")
