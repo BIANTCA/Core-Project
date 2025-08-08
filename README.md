@@ -6,7 +6,10 @@ It provides a clean, reusable `tgBot` class that handles:
 - sending / receiving messages, media, stickers, polls  
 - inline keyboards, webhooks, file uploads  
 - error logging and auto-retry  
-- rate-limiting with semaphore (optional)  
+- rate-limiting with semaphore (optional)
+
+Notes:
+ - you can get api from [@botfather](https://t.me/BotFather) at [Telegram](https://telegram.com/)
 
 No external frameworks – just Python 3.8+, `requests`, and standard library.
 
