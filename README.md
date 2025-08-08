@@ -9,7 +9,7 @@ It provides a clean, reusable `tgBot` class that handles:
 - rate-limiting with semaphore (optional)
 
 Notes:
- - you can get api from [@botfather](https://t.me/BotFather) at [Telegram](https://telegram.com/)
+ - you can get api from [@botfather](https://t.me/BotFather) at [Telegram](https://web.telegram.org/)
 
 No external frameworks – just Python 3.8+, `requests`, and standard library.
 
